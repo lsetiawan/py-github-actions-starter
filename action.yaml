@@ -1,0 +1,13 @@
+name: 'Action.py'
+description: 'Wait for specified number of seconds and return datetime of run'
+inputs:
+  seconds:  # id of input
+    description: 'Number of seconds to  wait'
+    required: true
+    default: "10"
+outputs:
+  time: # id of output
+    description: 'The time the script finished.'
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
