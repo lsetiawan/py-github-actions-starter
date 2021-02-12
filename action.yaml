@@ -1,5 +1,6 @@
-name: 'Action.py'
-description: 'Wait for specified number of seconds and return datetime of run'
+name: "GH Action.py"
+description: 'Github actions starter for python script with container.'
+author: "lsetiawan <https://github.com/lsetiawan>"
 inputs:
   seconds:  # id of input
     description: 'Number of seconds to  wait'
