@@ -19,6 +19,8 @@ The time when run was finished.
 
 ## Example usage
 
+```yaml
 uses: lsetiawan/py-github-actions-starter@v1
 with:
   time: '5'
+```
